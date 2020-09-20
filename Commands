@@ -1,0 +1,46 @@
+>ibmcloud login
+
+>Target a Cloud Foundry org and space:
+ibmcloud target --cf
+
+>ibmcloud cf push
+
+>List Cloud Foundry apps:
+ibmcloud cf apps
+
+>ibmcloud version
+
+>Set the API endpoint to cloud.ibm.com:
+ibmcloud api cloud.ibm.com
+
+>View the current API endpoint:
+ibmcloud api
+
+>Set HTTP request timeout to 30 seconds:
+ibmcloud config --http-timeout 30
+
+>Enable trace output for HTTP requests:
+ibmcloud config --trace true
+
+>List Cloud Foundry services without displaying the Invoking cf command... message:
+ibmcloud -q cf services
+
+>Install Cloud Foundry CLI 6.44.1:
+ibmcloud cf install -v 6.44.1
+
+>if you know which org and space that the service belongs to, you can use the following command:
+ibmcloud target -o <value> -s <value>
+
+>View the information for all regions on IBM Cloud:
+ibmcloud regions
+
+>Set the current account, organization, and space:
+ibmcloud target -c MyAccountID -o MyOrg -s MySpace
+
+>Switch to a new region:
+ibmcloud target -r eu-gb
+
+>View the current account, region, org, and space:
+ibmcloud target
+
+>
